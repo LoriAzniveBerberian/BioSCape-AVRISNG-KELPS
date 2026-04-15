@@ -41,7 +41,7 @@ BioSCape-AVRISNG_Spectra/
 
 This repository expects AVIRIS-NG L2A orthorectified surface reflectance NetCDF files (`*_RFL_ORT.nc`) from the BioSCape campaign. These files contain 425 spectral bands (380-2510 nm at 5 nm intervals) with the reflectance cube stored as `reflectance/reflectance` (wavelength, northing, easting) and coordinates in UTM projection.
 
-The BioSCape (Biodiversity Survey of the Cape) campaign flew AVIRIS-NG over South Africa's coastal and terrestrial ecosystems in October-November 2023. Flight data can be accessed through the [BioSCape Data Portal](https://www.bioscape.io/data).
+The BioSCape (Biodiversity Survey of the Cape) campaign flew AVIRIS-NG over South Africa's coastal and terrestrial ecosystems in October-November 2023. Flight data can be accessed through the [BioSCape JPL Data Portal](https://popo.jpl.nasa.gov/pub/bioscape_netCDF/).
 
 ### South Africa Coastline Shapefile
 
