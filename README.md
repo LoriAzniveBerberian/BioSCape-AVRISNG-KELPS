@@ -68,7 +68,7 @@ Scene selection uses a coastline shapefile to identify flight lines that interse
 
 ## Known Issues
 
-Four scenes from flight line `ang20231029t104631` (segments `_000` through `_003`) were processed by JPL with a development software build (`software_build_version: 010200_rdndev`, `product_version: test`) and exhibit a georeferencing offset relative to basemap imagery. The remaining 46 scenes are production data (`software_build_version: 002`, `product_version: 1`). This is an upstream data issue and does not affect the processing code. See the QC notebook for details.
+Four scenes from flight line `ang20231029t104631` (segments `_000` through `_003`) were processed by JPL with a development software build (`software_build_version: 010200_rdndev`, `product_version: test`) and exhibit a georeferencing offset relative to basemap imagery. The remaining 46 scenes are production data (`software_build_version: 002`, `product_version: 1`). Stay tuned for the solution to this problem!
 
 ## Requirements
 
