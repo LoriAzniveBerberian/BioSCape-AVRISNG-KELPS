@@ -34,7 +34,7 @@ BioSCape-AVRISNG_Spectra/
 |---|---|
 | `BioSCape_AVIRISNG_SpectralAnalysis.ipynb` | Main workflow notebook: scene discovery, coastline filtering, staging, quicklook export, kelp spectra extraction, and visualization |
 | `bioscape_rfl_tools.py` | Core library for reading AVIRIS-NG L2A NetCDF files, CRS handling (including UTM hemisphere correction), GeoTIFF export, and spectra extraction |
-| `extract_kelp_spectra.py` | Standalone script for batch kelp spectra extraction with pre-flight checks |
+| `extract_kelp_spectra.py` | Standalone script for batch kelp spectra extraction |
 | `qc_crs_transforms_metadata.ipynb` | QC notebook: validates CRS, GeoTransforms, pixel values, 8-bit stretch, and processing metadata across all scenes |
 
 ## Input Data
