@@ -55,12 +55,12 @@ Scene selection uses a coastline shapefile to identify flight lines that interse
 
 ## Workflow
 
-1. **Discover** -- scan a folder of AVIRIS-NG L2A `.nc` files and summarize spatial metadata
-2. **Filter** -- intersect flight line footprints with a South Africa coastline shapefile to select ocean/coastal scenes
-3. **Stage** -- hardlink or copy selected `.nc` files into `data/rfl_ocean_subset/`
-4. **Export quicklooks** -- for each scene, write 8-bit RGB, float32 NDVI, and 8-bit NDVI GeoTIFFs with correct UTM-South CRS
-5. **Annotate** -- manually draw kelp polygons in ArcGIS/QGIS and save to each scene's `annotations/` folder
-6. **Extract spectra** -- for each annotated scene, rasterize the polygon, filter by NDVI threshold, and write per-pixel spectra to CSV (columns: X, Y, NDVI, wavelength_1, wavelength_2, ...)
+1. **Discover** scan a folder of AVIRIS-NG L2A `.nc` files and summarize spatial metadata
+2. **Filter** intersect flight line footprints with a South Africa coastline shapefile to select ocean/coastal scenes
+3. **Stage** hardlink or copy selected `.nc` files into `data/rfl_ocean_subset/`
+4. **Export quicklooks** for each scene, write 8-bit RGB, float32 NDVI, and 8-bit NDVI GeoTIFFs with correct UTM-South CRS
+5. **Annotate** manually draw kelp polygons in ArcGIS/QGIS and save to each scene's `annotations/` folder
+6. **Extract spectra** for each annotated scene, rasterize the polygon, filter by NDVI threshold, and write per-pixel spectra to CSV (columns: X, Y, NDVI, wavelength_1, wavelength_2, ...)
 
 ## Known Issues
 
