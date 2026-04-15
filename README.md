@@ -5,7 +5,7 @@
 This repository processes AVIRIS-NG L2A hyperspectral imagery from the [BioSCape](https://www.bioscape.io/data) campaign to identify and stage coastal scenes along South Africa's coastline. It exports georeferenced quicklook products (RGB and NDVI GeoTIFFs) and extracts per-pixel reflectance spectra from kelp annotation polygons for downstream spectral analysis.
 
 
-![description](overview.png)
+![description](11.jpg)
 
 
 ## Folder Structure
