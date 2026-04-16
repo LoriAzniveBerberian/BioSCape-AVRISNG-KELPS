@@ -1,8 +1,8 @@
 # BioSCape-AVRISNG-KELPS
 
-**Kelp Extraction from L2 Pixel Spectra**
+**Kelp Extraction from L2A Pixel Spectra**
 
-This repository processes AVIRIS-NG L2 hyperspectral imagery from the [BioSCape](https://www.bioscape.io/data) campaign to identify and stage coastal scenes along South Africa's coastline. It exports georeferenced quicklook products (RGB and NDVI GeoTIFFs) and extracts per-pixel reflectance spectra from kelp annotation polygons for downstream spectral analysis.
+This repository processes AVIRIS-NG L2A hyperspectral imagery from the [BioSCape](https://www.bioscape.io/data) campaign to identify and stage coastal scenes along South Africa's coastline. It exports georeferenced quicklook products (RGB and NDVI GeoTIFFs) and extracts per-pixel reflectance spectra from kelp annotation polygons for downstream spectral analysis.
 
 
 ![description](11.jpg)
