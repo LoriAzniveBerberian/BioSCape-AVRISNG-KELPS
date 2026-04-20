@@ -31,8 +31,8 @@ BioSCape-AVRISNG_Spectra/
 
 | File | Description |
 |---|---|
-| `BioSCape_AVIRISNG_SpectralAnalysis.ipynb` | L2A workflow: scene discovery, coastline filtering, staging, quicklook export, kelp spectra extraction, and visualization |
-| `BioSCape_AVIRISNG_L2B_Processing.ipynb` | L2B workflow: matches L2B scenes to the ocean manifest, stages files, copies annotations from L2A, exports quicklooks, extracts spectra, and compares L2A vs L2B |
+| `BioSCape_AVIRISNG_L2A.ipynb` | L2A workflow: scene discovery, coastline filtering, staging, quicklook export, kelp spectra extraction, and visualization |
+| `BioSCape_AVIRISNG_L2B.ipynb` | L2B workflow: matches L2B scenes to the ocean manifest, stages files, copies annotations from L2A, exports quicklooks, extracts spectra, and compares L2A vs L2B |
 | `bioscape_rfl_tools.py` | Core library for reading AVIRIS-NG L2A and L2B NetCDF files, CRS handling (including UTM hemisphere correction and GeoTransform coordinate reconstruction), GeoTIFF export, and spectra extraction |
 | `extract_kelp_spectra.py` | Standalone script for batch kelp spectra extraction |
 | `qc_crs_transforms_metadata.ipynb` | QC notebook: validates CRS, GeoTransforms, pixel values, 8-bit stretch, and processing metadata across all scenes |
