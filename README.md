@@ -45,8 +45,6 @@ This repository works with two levels of AVIRIS-NG surface reflectance from the 
 
 **L2B** is an enhanced surface reflectance product produced by Kovach et al. (UW-Madison). It starts from the same L1B radiance data but adds topographic shading correction, sun glint removal, and bidirectional reflectance (BRDF) correction. For coastal kelp work, the glint correction is the most significant improvement. Coordinates are stored implicitly via a `GeoTransform` attribute and reconstructed by `bioscape_rfl_tools`.
 
-Comparison of L2A vs L2B across 17 annotated kelp scenes shows L2B consistently recovers 5-22% more valid pixels per scene while preserving the same spectral shape. Reflectance magnitude is slightly lower in L2B (0.003-0.017 reduction), consistent with glint removal. L2B is the recommended product for kelp spectral analysis.
-
 The BioSCape (Biodiversity Survey of the Cape) campaign flew AVIRIS-NG over South Africa's coastal and terrestrial ecosystems in October-November 2023. Flight data can be accessed through the [BioSCape Data Portal](https://www.bioscape.io/data).
 
 ### South Africa Coastline Shapefile
